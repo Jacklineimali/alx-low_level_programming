@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main -main funtion
+ * main - main funtion
  *
- * Retuurn: always 0
+ * Return: always 0
  */
+
 int main(void)
 {
 	char i;
