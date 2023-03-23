@@ -16,7 +16,7 @@ void print_number(int n)
 	if (num < 0)
 	{
 		num *= -1;
-		putchar('-');
+		_putchar('-');
 	}
 
 	/* count up */
@@ -35,12 +35,12 @@ void print_number(int n)
 	{
 		if (m == 1)
 		{
-			putchar(num % 10 + '0');
+			_putchar(num % 10 + '0');
 			num = -1;
 		}
 		else
 		{
-			putchar((num / m % 10) + '0');
+			_putchar((num / m % 10) + '0');
 			m /= 10;
 		}
 	}
